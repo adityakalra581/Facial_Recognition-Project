@@ -30,7 +30,7 @@ There are some changes done in the code as the sysytem used is Windows Operating
 
 - Important: Original images have .jpeg extension and .jpg in detection images.
 
-- The notebook contain the code for real time detection using WebCam as well.
+
 - I have uploaded the webcam video of Landmark Detection as well.
 
 
