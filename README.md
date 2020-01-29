@@ -28,4 +28,11 @@ Reference Link: https://pysource.com/2019/03/12/face-landmarks-detection-opencv-
 
 There are some changes done in the code as the sysytem used is Windows Operating System and the code is written in Jupyter Notebook.
 
+- Important: Original images have .jpeg extension and .jpg in detection images.
+
+- The notebook contain the code for real time detection using WebCam as well.
+- I have uploaded the webcam video of Landmark Detection as well.
+
+
+
 This project is for educational purpose only.
