@@ -1,5 +1,6 @@
 # Facial-Landmark-Detection-Using-Dlib
-5 Point and 68 point facial detection using OpenCV and Dlib.
+
+- 5 Point and 68 point facial detection using OpenCV and Dlib.
 
 ### Prerequisites:
 
@@ -30,8 +31,13 @@ There are some changes done in the code as the sysytem used is Windows Operating
 
 - Important: Original images have .jpeg extension and .jpg in detection images.
 
+### Sample Output:
 
-- I have uploaded the webcam video of Landmark Detection as well.
+![](images/a14.jpg)
+
+![](images/a2.jpg)
+
+![](images/a10.jpg)
 
 
 
