@@ -35,9 +35,11 @@ This project is completed using [face_recognition](https://pypi.org/project/face
 
 ### SAMPLE OUTPUTS:
 
+![](face-identification-project/output/output12.jpg)
+
 ![](face-identification-project/output/output5.jpg)
 
-![](face-identification-project/output/output12.jpg)
+![](face-identification-project/output/output6.jpg)
 
 ### Dependencies Installment:
 
