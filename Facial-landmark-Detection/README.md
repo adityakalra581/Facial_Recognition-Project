@@ -31,14 +31,13 @@ There are some changes done in the code as the sysytem used is Windows Operating
 
 - Important: Original images have .jpeg extension and .jpg in detection images.
 
-### Sample Output:
+### Sample Output of Facial Recognition Project:
 
-![](images/a14.jpg)
+![](Images/a14.jpg)
 
-![](images/a2.jpg)
+![](Images/a2.jpg)
 
-![](images/a10.jpg)
-
-
+![](Images/a10.jpg)
+ 
 
 This project is for educational purpose only.
