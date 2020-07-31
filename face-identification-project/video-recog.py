@@ -5,7 +5,7 @@ import cv2
 
 KNOWN_FACES_DIR = "known_faces"
 # UNKNOWN_FACES_DIR = "unknown_faces"
-TOLERANCE = 0.5  
+TOLERANCE = 0.6  
 ## 0-1, 
 ## higher value will give more matches but less accuracy.
 ## Lower value will give less matches with high accuracy.
@@ -14,7 +14,7 @@ FRAME_THICKNESS = 3
 FONT_THICKNESS = 2
 MODEL = "hog"  ## Use hog if running on cpu and "cnn" if on GPU 
 
-cap=cv2.VideoCapture("D:\\GITHUB\\face-mask-detector\\face-identification-project\\Video\\adityatest.mp4")
+cap = cv2.VideoCapture("E:\\GITHUB\\Facial_Recognition-Project\\face-identification-project\\sample_videos\\obama.mp4")
 
 print("loading the images")
 
@@ -48,13 +48,13 @@ while True:
           # First Rectangle for Face Detection
             top_left = (face_location[3], face_location[0])
             bottom_right = (face_location[1], face_location[2])
-            color = [0,255,0]
+            color = [255,0,0]
             cv2.rectangle(image, top_left,bottom_right, color, FRAME_THICKNESS)    
 
           # Second Rectangle for Name
             top_left = (face_location[3], face_location[2])
             bottom_right = (face_location[1], face_location[2]+22)
-            color = [0,255,0]
+            color = [255,0,0]
             cv2.rectangle(image, top_left,bottom_right, color, cv2.FILLED)
             cv2.putText(image, match, (face_location[3]+10, face_location[2]+15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (200,200,200), FONT_THICKNESS)
         else:
