@@ -45,9 +45,9 @@ This project is completed using [face_recognition](https://pypi.org/project/face
 
 ![](face-identification-project/output/output4.jpg)
 
-![](face-identification-project/output/output11.jpg)
+![](face-identification-project/output/output10.jpg)
 
-![](face-identification-project/output/output.6jpg)
+![](face-identification-project/output/output6.jpg)
 
 ![](face-identification-project/output/output12.jpg)
 
