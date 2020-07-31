@@ -1,5 +1,7 @@
 # Facial-Recognition-Project
 
+- Credits: [Adam Geitgey](https://github.com/ageitgey/face_recognition)
+
 - The main directory is face-identification-project but it is preferable to understand facial landmark detection first in order to execute the recognition part.
 
 This project is completed using [face_recognition](https://pypi.org/project/face-recognition/) package. This package is compatible with [DLIB](https://pypi.org/project/dlib/) Library.
@@ -43,18 +45,34 @@ This project is completed using [face_recognition](https://pypi.org/project/face
 
 ![](face-identification-project/output/output1.jpg)
 
-### Dependencies Installment:
+### Installing face_recognition package on Windows machine:
 
 **For working on Local Machine**
 
-**Step1:** Installing Cmake
+**Step1:** Download and install python 3.8 or higher **(64 bit)**
+
+- visit [Python Downloads](https://www.python.org/downloads/windows/) and `Download Windows x86-64 executable installer`.
+
+- **Note:** 
+
+**1. 32 bit for this project is useless.**
+
+**2. While installing python tick ADD to PATH checkbox**
 
 **Step2:** Installing [Microsoft Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
+
+**Step 3:** pip install cmake.
 
 **Step3:** Installing [face_recognition](https://pypi.org/project/face-recognition/) Package
 
 There is no need to install Dlib Explicitly as face_recognition package comes along with this.
 
-This is the best Video Tutorial I have seen. 
-[Video Tutorial](https://youtu.be/TC_LPpa7uj0)
+This is the best Video Tutorial I have seen.
+
+
+### References:
+
+**1. [face recognition installation for windows.](https://youtu.be/xaDJ5xnc8dc)** 
+
+**2. [I have used this earlier to resort cmake error.](https://youtu.be/TC_LPpa7uj0)**
 
