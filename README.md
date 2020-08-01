@@ -37,23 +37,23 @@ This project is completed using [face_recognition](https://pypi.org/project/face
 
 ### SAMPLE OUTPUTS:
 
-![](face-identification-project/output/output2.jpg)
-
-![](face-identification-project/output/output5.jpg)
-
 ![](face-identification-project/output/output0.jpg)
-
-![](face-identification-project/output/output4.jpg)
-
-![](face-identification-project/output/output10.jpg)
 
 ![](face-identification-project/output/output6.jpg)
 
-![](face-identification-project/output/output12.jpg)
+![](face-identification-project/output/output14.jpg)
 
-![](face-identification-project/output/output13.jpg)
+![](face-identification-project/output/output9.jpg)
 
-![](face-identification-project/output/output7.jpg)
+![](face-identification-project/output/output10.jpg)
+
+![](face-identification-project/output/output11.jpg)
+
+![](face-identification-project/output/output4.jpg)
+
+![](face-identification-project/output/output15.jpg)
+
+![](face-identification-project/output/output18.jpg)
 
 ### Installing face_recognition package on Windows machine:
 

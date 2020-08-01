@@ -14,7 +14,7 @@ FRAME_THICKNESS = 3
 FONT_THICKNESS = 2
 MODEL = "hog"  ## Use hog if running on cpu and "cnn" if on GPU 
 
-cap = cv2.VideoCapture("E:\\GITHUB\\Facial_Recognition-Project\\face-identification-project\\sample_videos\\obama.mp4")
+cap = cv2.VideoCapture("E:\\GITHUB\\Facial_Recognition-Project\\face-identification-project\\sample_videos\\ssr-1.mp4")
 
 print("loading the images")
 

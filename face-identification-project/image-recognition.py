@@ -44,6 +44,7 @@ for filename in os.listdir(UNKNOWN_FACES_DIR):
         if True in results:
             match = known_names[results.index(True)]
             print(f"Match found: {match}")
+            # print(results)
 
           # First Rectangle for Face Detection
             top_left = (face_location[3], face_location[0])
@@ -61,14 +62,14 @@ for filename in os.listdir(UNKNOWN_FACES_DIR):
             print("Match Not Found")
     
 # #     cv2.imshow(filename,image)
-    new = cv2.resize(image,(600,600))
-    cv2.imwrite(os.path.join(path,"output%d.jpg" % i),new)
-    cv2.waitKey(5000)
-    i += 1
+    # new = cv2.resize(image,(600,600))
+    # cv2.imwrite(os.path.join(path,"output%d.jpg" % i),new)
+    # cv2.waitKey(5000)
+    # i += 1
 
 
 
-    # Show image
-    # cv2.imshow(filename, image)
-    # cv2.waitKey(0)
-    # cv2.destroyWindow(filename)
+    ## Show image
+    cv2.imshow(filename, image)
+    cv2.waitKey(0)
+    cv2.destroyWindow(filename)
