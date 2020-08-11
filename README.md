@@ -37,6 +37,10 @@ This project is completed using [face_recognition](https://pypi.org/project/face
 
 ### SAMPLE OUTPUTS:
 
+![](Output-videos/obama.gif)
+
+![](Output-videos/sushant.gif)
+
 ![](face-identification-project/output/output0.jpg)
 
 ![](face-identification-project/output/output6.jpg)
