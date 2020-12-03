@@ -84,6 +84,19 @@ There is no need to install Dlib Explicitly as face_recognition package comes al
 This is the best Video Tutorial I have seen.
 
 
+### Facial Attendance System
+
+- Logic: Facial Recognition Attendance System: Recognizing the face and checking whether the name is present in the CSV or Not. 
+If yes then it does not overwrite and if no it will write the name with date.
+
+File Structure:
+
+- Facial-Attendance-System:
+    - detect.py: Main script
+    - Attendance.csv : Attendance wil be marked here.
+    - Known_faces : Consists the faces of people that needs to be recognised.
+
+
 ### References:
 
 **1. [face recognition installation for windows.](https://youtu.be/xaDJ5xnc8dc)** 
