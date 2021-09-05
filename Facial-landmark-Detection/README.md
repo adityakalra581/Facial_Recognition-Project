@@ -36,8 +36,6 @@ There are some changes done in the code as the sysytem used is Windows Operating
 ![](Images/a14.jpg)
 
 ![](Images/a2.jpg)
-
-![](Images/a10.jpg)
  
 
 This project is for educational purpose only.
